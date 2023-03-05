@@ -22,7 +22,7 @@
 
 inline const char *scan_filename(const char filename[static 1]) {
 
-  char* dot_index = strchr(filename, '.');
+  char* dot_index = strrchr(filename, '.');
   if (dot_index)
     return dot_index + 1;
   return NULL;
