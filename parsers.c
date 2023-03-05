@@ -20,7 +20,7 @@
 
 //Finds the pointer to the first character after '.'
 
-const char* scan_filename(const char filename[static 1]) {
+inline const char* scan_filename(const char filename[static 1]) {
 
   return strrchr(filename, '.') + 1;
 }
