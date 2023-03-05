@@ -1,5 +1,5 @@
 /*   LICAT- License Concatenator
- *   Copyright (C) 2023 Jeiel C. M. dos Santos 
+ *   Copyright (C) 2023 Jeiel C. M. dos Santos
 
  *   This program is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
@@ -15,14 +15,13 @@
  *   along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-
+#include "parsers.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "parsers.h"
 
-extern const char* scan_filename(const char filename[static 1]);
+extern const char *scan_filename(const char filename[static 1]);
 
-int main(int argc, char* argv[]) {
+int main(int argc, char *argv[]) {
 
   if (argc == 1) {
     printf("Usage: licat [options] [file1, file2, ...]\n");

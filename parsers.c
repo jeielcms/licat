@@ -1,5 +1,5 @@
 /*   LICAT- License Concatenator
- *   Copyright (C) 2023 Jeiel C. M. dos Santos 
+ *   Copyright (C) 2023 Jeiel C. M. dos Santos
 
  *   This program is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
@@ -18,9 +18,9 @@
 #include "parsers.h"
 #include <string.h>
 
-//Finds the pointer to the first character after '.'
+// Finds the pointer to the first character after '.'
 
-inline const char* scan_filename(const char filename[static 1]) {
+inline const char *scan_filename(const char filename[static 1]) {
 
   return strrchr(filename, '.') + 1;
 }

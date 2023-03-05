@@ -1,5 +1,5 @@
 /*   LICAT- License Concatenator
- *   Copyright (C) 2023 Jeiel C. M. dos Santos 
+ *   Copyright (C) 2023 Jeiel C. M. dos Santos
 
  *   This program is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
@@ -18,7 +18,6 @@
 #ifndef PARSERS_H
 #define PARSERS_H
 
-extern const char* scan_filename(const char filename[static 1]);
-
+extern const char *scan_filename(const char filename[static 1]);
 
 #endif
