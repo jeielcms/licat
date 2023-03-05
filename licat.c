@@ -29,7 +29,8 @@ int main(int argc, char *argv[]) {
   }
 
   for (size_t i = 1; i != argc; i++) {
-    puts(scan_filename(argv[i]));
+    if(scan_filename(argv[i]))
+      puts(scan_filename(argv[i]));
   }
   return EXIT_SUCCESS;
 }

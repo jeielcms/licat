@@ -5,4 +5,4 @@ licat.o: licat.c parsers.c
 	gcc -Wall -Werror -pedantic-errors -std=c18 -g -v -c licat.c parsers.c
 
 clean:
-	rm -f *.o
+	rm -f licat *.o
