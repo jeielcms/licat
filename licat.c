@@ -19,8 +19,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-extern const char *scan_filename(const char filename[static 1]);
-
 int main(int argc, char *argv[]) {
 
   if (argc == 1) {

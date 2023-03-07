@@ -1,4 +1,4 @@
-/*   LICAT- License Concatenator
+/*   licat - License Concatenator
  *   Copyright (C) 2023 Jeiel C. M. dos Santos
 
  *   This program is free software: you can redistribute it and/or modify
