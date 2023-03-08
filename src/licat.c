@@ -24,7 +24,7 @@ int main(int argc, char* argv[]) {
 
   if (argc == 1) {
     fprintf(stderr, "USAGE: licat [options] [args] [file1, file2, ...]\n"
-                    "HELP: `-h` or `--help` for more information.\n");
+                    "HELP: Use `-h` or `--help` for more information.\n\n");
     exit(EXIT_FAILURE);
   }
   
